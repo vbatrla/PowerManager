@@ -25,6 +25,8 @@
 
         private void AddMenuItemToMenu(IMenuItemProxy menuItemProxy)
         {
+            itemsNotifier.Attach(menuItemProxy);
+
             contextMenu.MenuItems.Add((MenuItem)menuItemProxy.GetRealObject());
         }
 
