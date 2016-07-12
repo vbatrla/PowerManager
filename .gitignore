@@ -1,0 +1,16 @@
+bin/
+obj/
+*.dll
+*.exe
+*.exp
+*.ilk
+*.lib
+*.ncb
+*.log
+*.pdb
+*.suo
+*.user
+
+#NuGet
+packages
+!packages/repositories.config

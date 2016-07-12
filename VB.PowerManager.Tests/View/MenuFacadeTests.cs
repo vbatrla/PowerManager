@@ -1,7 +1,6 @@
 ﻿namespace VB.PowerManager.Tests.View
 {
     using System;
-    using System.Linq;
     using NSubstitute;
     using NUnit.Framework;
     using VB.PowerManager.AppCore.Enums;
