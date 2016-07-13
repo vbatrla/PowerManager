@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB.PowerManager", "VB.PowerManager\VB.PowerManager.csproj", "{01C53D52-4184-41EB-91E7-4648D3F3BF5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB.PowerManager", "src\VB.PowerManager\VB.PowerManager.csproj", "{01C53D52-4184-41EB-91E7-4648D3F3BF5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB.PowerManager.Tests", "VB.PowerManager.Tests\VB.PowerManager.Tests.csproj", "{E6A1C60A-181D-4B76-8839-2EA4F832D3E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB.PowerManager.Tests", "tests\VB.PowerManager.Tests\VB.PowerManager.Tests.csproj", "{E6A1C60A-181D-4B76-8839-2EA4F832D3E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
