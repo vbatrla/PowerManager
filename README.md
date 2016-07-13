@@ -6,3 +6,7 @@
 
 Choose your power schema without any limitations
 > ![screenshot](images/how_does_it_look_like.png) 
+
+## Getting started
+
+- Obtain stable version and install <a href="releases/setup.exe">setup.exe</a>
