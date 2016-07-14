@@ -1,5 +1,15 @@
 version: 1.0.{build}
+environment:
+  COVERALLS_REPO_TOKEN:
+    secure: Nzgc8ZZJM53RidhdmE9I8vvoNrIqgg1nuWRsfKFtYGBaTMc3zNW9h9/t2WwHZ1BF
 before_build:
-- cmd: nuget restore
+  - cmd: nuget restore
+  - nuget install NUnit.Runners -Version 3.4.1 -OutputDirectory .\NUnit
+  - nuget install OpenCover -Version 4.6.519 -OutputDirectory .\OpenCover
+  - nuget install coveralls.net -Version 0.6.0 -OutputDirectory .\coveralls.net
 build:
+  project: PowerManager.sln
   verbosity: minimal
+test_script:
+  - .\OpenCover\OpenCover.4.6.519\tools\OpenCover.Console.exe -target:".\NUnit\NUnit.ConsoleRunner.3.4.1\tools\nunit3-console.exe" -targetargs:".\tests\VB.PowerManager.Tests\bin\Debug\VB.PowerManager.Tests.dll" -output:coverage.xml -register:user
+  - .\coveralls.net\coveralls.net.0.6.0\tools\csmacnz.coveralls.exe --opencover -i .\coverage.xml
