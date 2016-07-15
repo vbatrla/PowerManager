@@ -41,6 +41,7 @@
 
             var firstItem = new MenuItemProxy("A", (() => { }));
             var secondItem = new MenuItemProxy("B", (() => { }));
+            // Prop which must be changed to false
             secondItem.Checked = true;
 
             notifier.Attach(firstItem);
