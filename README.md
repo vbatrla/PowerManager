@@ -13,5 +13,6 @@ Choose your power schema without any limitations
 
 ## Motivation
 
-- Easy setup just install
+- Easy setup. Just a few steps
 - It'll run on startup
+- Change power scheme by two clicks
